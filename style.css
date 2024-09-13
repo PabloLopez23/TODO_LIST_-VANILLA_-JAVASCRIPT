@@ -1,10 +1,11 @@
 body {
-  background-color: rgb(223, 187, 209);
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #191414; /* Negro */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 56px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white; /* Texto en blanco */
 }
 
 #header {
@@ -12,7 +13,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: #50bb5f;
+  background: #1DB954; /* Verde Spotify */
   height: 75px;
   display: flex;
   justify-content: space-between;
@@ -27,15 +28,16 @@ body {
 
 #header a {
   padding-left: 15px;
+  color: white; /* Texto en blanco */
 }
 
-
 #container {
-  background-color: #df3636;
-  box-shadow: 8px 8px 20px#000;
+  background-color: #282828; /* Gris oscuro */
+  box-shadow: 8px 8px 20px #000;
   width: 50%;
   min-width: 700px;
   border-radius: 5px;
+  color: white; /* Texto en blanco */
 }
 
 #inputContainer {
@@ -43,6 +45,7 @@ body {
   justify-content: center;
   padding: 10px;
   margin-bottom: 25px;
+  color: white; /* Texto en blanco */
 }
 
 #toDoInput {
@@ -52,6 +55,8 @@ body {
   font-size: 20px;
   border: none;
   border-radius: 4px;
+  color: white; /* Texto en blanco */
+  background-color: #333; /* Fondo gris medio */
 }
 
 #addButton {
@@ -63,7 +68,7 @@ body {
   border-radius: 10px;
   cursor: pointer;
   height: 35px;
-  background: #0671bd;
+  background: #1DB954; /* Verde Spotify */
   color: #FFF;
   font-size: 16px;
 }
@@ -74,6 +79,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   cursor: pointer;
+  color: white; /* Texto en blanco */
 }
 
 .toDoShell {
@@ -82,16 +88,19 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #fff;
+  background: #333; /* Gris medio */
   margin-bottom: 10px;
   border-radius: 5px;
   font-size: 20px;
   padding: 5px;
+  color: white; /* Texto en blanco */
 }
 
 .toDoShell span {
   width: 90%;
+  color: white; /* Texto en blanco */
 }
+
 .completeText {
   color: lightgrey;
   text-decoration: line-through;
